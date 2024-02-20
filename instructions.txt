@@ -1,0 +1,13 @@
+Game called 2048
+
+The game board is square shaped and consists of several smaller tiles. There are empty tiles as well as ones with a value. The board is initialized with tiles of value 2 at random locations. All of the tiles with a value can be simultaneously moved up, down, left, or right, and after moving the tiles a value 2 is added randomly in an empty tile. When a tile collides with another one that has the same value, they merge and their values are summed. The goal is to get the value of one tile to the target value. The game is lost if the board is filled with non-empty tiles before reaching the goal.
+
+First the player decides a seed number for the initialization of the board, the exponent n for the goal value 2^n, and the number of rows and columns in the board (4, 6, or 8). After pressing the "Start game" button, the board is initialized, timer starts, and the tiles can be moved with the arrow buttons. When the game is won or lost, a corresponding text appears on the board. The game can be reset with the reset button when the game is over or when it is still on (paused or not). Before reseting, the player can change the goal number value or the initialization seed, but the size of the board remains the same. These changes come into effect after reseting.
+
+Additional features:
+-The game has a timer
+-The game can be paused and continued using the "Pause" button (switches to "Continue" when game 	is paused)
+-The number of tiles can be changed within the GUI
+-Different number tiles have different colors
+-The program only allows powers of 2 as goal numbers
+-The background color switches to red when game is lost and green when game is won, and back to 	white on reset
